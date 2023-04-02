@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #1d2d40;
+    color: #e2e2e2;
+    margin:0;
+	padding:0;
+}
+footer{
+	clear: both;
+	padding:20px 0px;
+	text-align:center;
+    color: #e2e2e2;
+}
+
+/*LOGO*/
+#heading{
+	display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    text-align: center;
+}
+.heading_img{
+    box-sizing: border-box;
+    width: 70%;
+    height: auto;
+    position: relative;
+    top: 10px;
+}
+.heading_title{
+    box-sizing: border-box;
+    font-size: 12px;
+    position: relative;
+    top: -10px;
+}
+
+/*導覽列*/
+nav{
+    width:100%;
+	margin:auto;
+	text-align:center;
+	background: #010910;
+	
+	-webkit-position: sticky;
+	position: sticky;
+	z-index:2000;
+	top: 0;
+}
+nav ul{
+    background-color: #010910;
+    margin: 0;
+    padding: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0px 10px 0px;
+}
+nav li a{
+    color: #e2e2e2;
+    text-decoration: none;
+
+    padding: 20px;
+}
+nav li a:hover{
+    background-color: #e2e2e2;
+    color: #010910;
+}
+nav li span{
+    color: #010910;
+    background-color: #e2e2e2;
+    padding: 20px;
+}
+
+/*內文*/
+section{
+    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
+}
+.wrap{
+    float: left;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.wrap img{
+    float: right;
+    width: 38%;
+    margin: 0px 20px 20px;
+}
+
+.wrap p{
+    box-sizing: border-box;
+    color: #e2e2e2;
+}
+.wrap a{
+    box-sizing: border-box;
+    color: #a85c02;
+    text-decoration: none;
+}
+.wrap h3{
+    box-sizing: border-box;
+    color: #b79683;
+}
+.email{
+    display: flex;
+    position: relative;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 1px;
+    left: 15px;
+    top: -30px;
+}
+.email img{
+    width: 35px;
+    height: 35px;
+    margin: 0px 10px 0px;
+}
+.email a{
+    color: #a85c02;
+    text-decoration: none;
+    height: 35px;
+}
