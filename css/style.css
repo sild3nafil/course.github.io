@@ -43,6 +43,7 @@ nav{
 	margin:auto;
 	text-align:center;
 	background: #010910;
+    opacity: 70%;
 	
 	-webkit-position: sticky;
 	position: sticky;

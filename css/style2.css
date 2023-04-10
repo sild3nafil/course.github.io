@@ -21,7 +21,7 @@ aside{
     width: 18%;
 	position: fixed;
 	left: 15px;
-	top: 250px;
+	top: 240px;
 	z-index: 999999;
 
     background-color: #010910;
@@ -79,6 +79,7 @@ nav{
 	margin:auto;
 	text-align:center;
 	background: #010910;
+    opacity: 70%;
 	
 	-webkit-position: sticky;
 	position: sticky;
@@ -131,6 +132,12 @@ nav li span{
 /*article*/
 .box{
     width: 60%;
+}
+.box2{
+    width: 55%;
+    border: 2.5px dotted #e2e2e2;
+    padding: 10px 20px;
+    background-color: #01091035;
 }
 .box_img{
     width: 100%;
